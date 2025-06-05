@@ -14,7 +14,7 @@ keywords: Présentation Startupéro
 exportFilename: "startupero.pdf"
 
 layout: cover
-background: "/background-cover.png"
+background: "/startupero.jpg"
 
 defaults:
   transition: slide-left|slide-right
@@ -22,7 +22,7 @@ defaults:
 
 # Startupéro #6 
 
-## Comment un projet tech peut-il ~~mal~~ bien  se passer ?
+# Comment un projet tech peut-il ~~mal~~ bien  se passer ?
 
 
 <!--
@@ -92,6 +92,8 @@ Pierre lance une startup.
 
 Edouard travaille dans une ESN.
 
+Rémy est le beta-testeur de Pierre.
+
 ---
 layout: center
 --- 
@@ -122,11 +124,10 @@ layout: default
 </v-clicks>
 
 --- 
-layout:
+layout: section
 --- 
 
 # Les principes fondamentaux qu'on voulait illustrer
-Il faut faire des itérations courtes ! 
 
 
 
@@ -159,3 +160,8 @@ url: https://manifesto.softwarecraftsmanship.org/#/fr-fr
 
 
 
+---
+layout: end
+---
+
+# Merci de votre attention ! 
