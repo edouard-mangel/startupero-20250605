@@ -143,8 +143,8 @@ Les itérations courtes: le GPS du projet
 ---
 layout: iframe
 
-# the web page sourcz
-url: https://agilemanifesto.org
+# the web page source
+url: https://agilemanifesto.org/iso/fr/manifesto.html
 ---
 
 
@@ -152,7 +152,7 @@ url: https://agilemanifesto.org
 layout: iframe
 
 # the web page source
-url: https://manifesto.softwarecraftsmanship.org/
+url: https://manifesto.softwarecraftsmanship.org/#/fr-fr
 ---
 
 
