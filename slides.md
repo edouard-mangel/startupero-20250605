@@ -111,17 +111,49 @@ layout: default
 
 # Ce qu'on ne voulait surtout pas dire 
 
+<v-clicks>
+
 1. Les ESN sont mauvaises, les free-lance sont toujours meilleurs que les ESN
-2. Les free-lance sont toujours moins chers
+2. Les free-lance sont toujours moins chers ou plus rapides
 3. Les problèmes qu'on a présentés se produisent uniquement avec des prestataires
 4. L'agilité est la seule manière de réussir 
 5. Il ne faut jamais faire de cahier des charges
 
+</v-clicks>
+
+--- 
+layout:
 --- 
 
 # Les principes fondamentaux qu'on voulait illustrer
+Il faut faire des itérations courtes ! 
 
 
+
+---
+layout: image
+image: gps_agile.png
+backgroundSize: contain
+---
+
+# Itérations courtes vs "effet tunnel" 
+Les itérations courtes: le GPS du projet
+
+
+---
+layout: iframe
+
+# the web page sourcz
+url: https://agilemanifesto.org
+---
+
+
+---
+layout: iframe
+
+# the web page source
+url: https://manifesto.softwarecraftsmanship.org/
+---
 
 
 
