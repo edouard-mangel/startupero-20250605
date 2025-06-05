@@ -24,18 +24,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
+      
+      - name: install pnpm
+        run: npm i -g pnpm
 
       - name: Setup @antfu/ni
-        run: npm i -g @antfu/ni
+        run: pnpm add @antfu/ni
 
       - name: Install theme
-        run: npm i -g slidev-theme-vuetiful --legacy-peer-deps
+        run: pnpm add slidev-theme-vuetiful 
 
       - name: Install dependencies
-        run: nci --legacy-peer-deps
+        run: pnpm install
 
       - name: Build
-        run: nr build --base /${{github.event.repository.name}}/
+        run: pnpm build --base /${{github.event.repository.name}}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
